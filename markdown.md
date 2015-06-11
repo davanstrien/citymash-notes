@@ -3,8 +3,8 @@ title: Markdown \#Citymash handout
 ---
 
 ### What this session will cover 
-* The problems with proprietary file formats
-* 
+* A discussion of some of the problems with proprietary file formats.
+* A look at some of the benefits of using plain text files alongside some of the limitations of text files. 
 
 ### Problems with proprietary file formats
 
@@ -74,30 +74,58 @@ Whilst plain text files are great in many ways, one of the potential problems wi
 
 Although LaTeX is perfect for typesetting documents that will be printed, something we will return to later, it can be to cumbersome for short documents which may not necessarily be intended primarily for printing. 
 
+### what sort of documents do we need?
+
 ## What is Markdown?
 
-Whilst plain text files are great in many ways, one of the potential problems with them is that they are a bit plain. Often we need to structure documents in some ways. Some text serves as headings, other points we might want to emphasise, we may want to separate quoted text from the rest of the text. This isn't about formating the text yet but purely about the logical structure of the text. We can 'mark' these aspects of text in different ways. One solution would be to use HTML, however a problem with using HTML is that it is already more concerned with formating how text will be displayed.
+Markdown is designed to address the limitations associated with plain text whilst retaining the benefits. It is markup which attempts to limit the amount of markup required; hence the 'down' in the name. Markdown is a syntax for setting out the structure of the document in a way which is human readable and compilable by an interpreter. This means that markdown files can easily be converted into different formats with consistent rules. 
 
-
-
-Plain text that is not computationally tagged, specially formatted, or written in code.
-* markdown is a syntax for setting out the structure of the document in a way which is human readable. 
-* there are a number of different 'flavours' of markdown but they all have similar conventions 
-* the idea of markdown is to provide minimal amounts of 'markup' to allow the focus on writing. 
-* it is easy to convert between markdown and html but also other formats using pandoc 
-
+There are a number of different 'flavours' of markdown but they all have similar conventions so it doesn't involve much effort to switch between them. Which you will use will largely depend on where you will be using your markdown files. 
 
 ## How to write in Markdown
 
-* no special software needed. any text editor (not word processor can be used)
-* online 
+We don't need any special software to write in Markdown since it is a plain text file. We can use Textedit on Mac or Notepad on Windows or use a more advanced text editor (not Word Processors). We just need to learn the syntax for markdown which doesn't take long, and can be supplemented with Google searches when you forget how to do something. There are a variety of on-line markdown editors we can use to see how markdown works. 
 
-### Some things to try with Mardown 
+### Exercise 1 - Try an online markdown editor
+1. Choose a cheat sheet which makes sense to you, the following are all good ([Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) [Pandoc Markdown](http://pandoc.org/demo/example9/pandocs-markdown.html)) but there are plenty of others available online. 
+2. Choose one of the following online markdown editors or find another one if you don't like any of these
+    * [Dillinger](http://dillinger.io/)
+    * [Stackedit](https://stackedit.io/editor)
+    * [Markable](http://markable.in/)
+
+3. Try writing some text using some common markdown syntax such as headings, lists, bold, italics etc. 
+4. These online editors are useful for picking up markdown because they usually include a live preview of what you have written which is useful when you aren't yet familiar with the markdown syntax. 
+5. Once you have got something written in markdown we can try doing a number of things with it. 
+
+### Some things to try with Markdown 
+
 These are a few different places we can play around with converting our markdown file into other formats. 
 
-#### Markdown to HTML
+#### Exercise 2 - Markdown to HTML
 
-## Pandoc 
+There are a number of different ways that we can convert markdown files to HTML. Some websites 'natively' deal with markdown files. These include Wordpress and Github amongst others. We can also use tools to convert our markdown into HTML. There are number of ways we can do this. We can install software to do this on our computers but before we do that we may want to try playing around with some online tools. 
+
+1. Using the markdown file we just wrote try converting to HTML using one of these sites. 
+    * [http://daringfireball.net/projects/markdown/dingus]([http://daringfireball.net/projects/markdown/dingus])
+    * Markable, one of the editors above allows us to convert to HTML.
+
+##### Optional exercise - HTML to Markdown
+It can be helpful to be able to convert from HTML to markdown. We may have existing work in HTML or want to use existing documents in HTML. If you have an existing HTML document you can try converting it to markdown. There is also an example HTML file in the github folder for this workshop you can use. 
+
+* [https://domchristie.github.io/to-markdown/](https://domchristie.github.io/to-markdown/)
+
+### Exercise 3 -  Markdown to PDF
+We may originally write something in markdown which we later want to print. We can convert to PDF using an online converter. 
+
+* [http://www.markdowntopdf.com/](http://www.markdowntopdf.com/)
+
+The output of these files are not always perfect but it gives a demonstration of the benefits of markdown. We can use more advanced tools later to have more control over the process. 
+
+### Pandoc and LaTeX (final steps requires you to install software)
+
+Pandoc is a powerful 
+[http://pandoc.org/try/](http://pandoc.org/try/) Pandoc allows you to convert between a large number of different formats. We'll explore it a little more below. 
+
 
 Pandoc is a software 
 
@@ -105,12 +133,6 @@ allows you to include references in a plain text format using bibtex files
 .bib files are bibliographic files in plain text. 
 they have been around since the 80s. 
 
-
-## Resources
-
-* markdown cheat sheet 
-* pandoc 
-* http://whatismarkdown.com/
 
 ---
 [^1]: It is not always clear whether it is possible or not. It can depend on the version of the Word Processor being used at each end, the operating system and the type of files embedded in the document. 
