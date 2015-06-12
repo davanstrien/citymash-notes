@@ -73,7 +73,7 @@ Whilst plain text files are great in many ways, one of the potential problems wi
 
 Although LaTeX is perfect for typesetting documents that will be printed, something we will return to later, it can be to cumbersome for short documents which may not necessarily be intended primarily for printing. 
 
-## what sort of documents do we need?
+## What sort of documents do we need?
 We may not always have a choice in the type of documents we are going to be working with, however, when a choice is available it makes sense to consider what characteristics we want our documents to have. The following is a non-comprehensive list of properties we want our documents to have:
 
 * **Sustainable** - we want to use a document format which is sustainable and will be usable in both the short and long run. 
@@ -99,7 +99,7 @@ We don't need any special software to write in Markdown since it is a plain text
     * [Stackedit](https://stackedit.io/editor)
     * [Markable](http://markable.in/)
 
-3. Try writing some text using some common markdown syntax such as headings, lists, bold, italics etc. 
+3. Try writing some text using some common markdown syntax such as headings, lists, bold, italics etc. It might be helpful to try thinking about how you would structure different types of text i.e. a blog post, a web page or an academic piece of writing. 
 4. These online editors are useful for picking up markdown because they usually include a live preview of what you have written which is useful when you aren't yet familiar with the markdown syntax. 
 5. Once you have got something written in markdown we can try doing a number of things with it. 
 
@@ -148,8 +148,6 @@ To use pandoc we will have to:
 * have a plain text editor. For now notepad or text edit will be fine though you may want to try out some more advanced text editors in the future. 
 * if we want to produce PDFs we will also need to install LaTeX. There are a variety of different installations of LaTeX available and it is probably worth setting aside some more time to install this. 
 * have some citations in bib format. There are some included in the folder for this lesson that you can use. 
-
-
 
 
 ---
