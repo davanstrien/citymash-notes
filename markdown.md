@@ -133,16 +133,23 @@ Pandoc is a powerful piece of software that allows conversion between a large nu
 
 #### Trying Pandoc 
 
-Although it is not possible to use all of the features of pandoc without installing the software we can still try a number of features of pandoc without installing it. 
+Although it is not possible to use all of the features of pandoc without installing the software we can still try a number out some of the features of Pandoc using an online test version.
 
-* [http://pandoc.org/try/](http://pandoc.org/try/) Pandoc allows you to convert between a large number of different formats. We'll explore it a little more below. 
+* [http://pandoc.org/try/](http://pandoc.org/try/) Pandoc allows you to convert between a large number of different formats
+
+### Using Pandoc for academic writing
+Pandoc extends some of the functionality of Markdown and in particular makes it more suitable for academic writing. This final section is largely based on a [tutorial](http://programminghistorian.org/lessons/sustainable-authorship-in-plain-text-using-pandoc-and-markdown)  on the Programming Historian site. It is probably ambitious to try to cover all of the things that can be done with Pandoc in a short session but it might be possible to install the software (if you want) and to start exploring Pandoc. 
+
+**Disclaimer: although it is unlikely, unexpected things can happen to computers when you install new software. Pandoc carries no warranty of any kind. ** 
+
+To use pandoc we will have to:
+
+* install Pandoc on our computer. Instructions for different installation methods can be found [here](http://pandoc.org/installing.html).
+* have a plain text editor. For now notepad or text edit will be fine though you may want to try out some more advanced text editors in the future. 
+* if we want to produce PDFs we will also need to install LaTeX. There are a variety of different installations of LaTeX available and it is probably worth setting aside some more time to install this. 
+* have some citations in bib format. There are some included in the folder for this lesson that you can use. 
 
 
-Pandoc is a software 
-
-allows you to include references in a plain text format using bibtex files 
-.bib files are bibliographic files in plain text. 
-they have been around since the 80s. 
 
 
 ---
