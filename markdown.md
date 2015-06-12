@@ -2,11 +2,11 @@
 title: Markdown \#Citymash handout
 ---
 
-### What this session will cover 
+## What this session will cover 
 * A discussion of some of the problems with proprietary file formats.
 * A look at some of the benefits of using plain text files alongside some of the limitations of text files. 
 
-### Problems with proprietary file formats
+## Problems with proprietary file formats
 
 * Proprietary file formats encode text in binary format. 
 * There are different ways of accessing propitiatory formats: 
@@ -25,7 +25,7 @@ To demonstrate this we can try opening [old plain text files](http://textfiles.c
 
 Whilst plain text files are great in many ways, one of the potential problems with them is that they are a bit plain. Often we need to structure documents in some ways. Some text serves as headings, other points we might want to emphasise, we may want to separate quoted text from the rest of the text. This isn't about formating the text yet but purely about the logical structure of the text. We can 'mark' these aspects of text in different ways. One solution would be to use HTML, however a problem with using HTML is that it is already more concerned with formating how text will be displayed. Another potential option is to use LaTeX, which is a method designed for producing well typeset documents, however the syntax (language) has a bit of a learning curve and LaTeX documents are not primarily designed for the web. 
 
-#### LaTeX example
+#### LaTeX example [^2]
 
     \documentclass[12pt]{article}
 
@@ -70,11 +70,17 @@ Whilst plain text files are great in many ways, one of the potential problems wi
     be handled specially.
      
     \end{document}      
-[^2]
 
 Although LaTeX is perfect for typesetting documents that will be printed, something we will return to later, it can be to cumbersome for short documents which may not necessarily be intended primarily for printing. 
 
-### what sort of documents do we need?
+## what sort of documents do we need?
+We may not always have a choice in the type of documents we are going to be working with, however, when a choice is available it makes sense to consider what characteristics we want our documents to have. The following is a non-comprehensive list of properties we want our documents to have:
+
+* **Sustainable** - we want to use a document format which is sustainable and will be usable in both the short and long run. 
+* **Portable** - we should be able to move our documents around easily. Although memory isn't as big a problem it once was, it is still worth consideration. Portability not only refers to the size of documents but how easily it is opened across different devices and with different software.
+* **'Translatable'** - although we may produce documents with an initial purpose, we may later want to use the document, or part of it, for a different purpose. 
+* **Version Control** - we want to write in a format which allows version control 
+* **Human readable** - This ties to the issue of sustainability, it should be possible for a human to read the raw text without compiling the document.
 
 ## What is Markdown?
 
@@ -101,7 +107,7 @@ We don't need any special software to write in Markdown since it is a plain text
 
 These are a few different places we can play around with converting our markdown file into other formats. 
 
-#### Exercise 2 - Markdown to HTML
+#### Markdown to HTML
 
 There are a number of different ways that we can convert markdown files to HTML. Some websites 'natively' deal with markdown files. These include Wordpress and Github amongst others. We can also use tools to convert our markdown into HTML. There are number of ways we can do this. We can install software to do this on our computers but before we do that we may want to try playing around with some online tools. 
 
@@ -109,12 +115,12 @@ There are a number of different ways that we can convert markdown files to HTML.
     * [http://daringfireball.net/projects/markdown/dingus]([http://daringfireball.net/projects/markdown/dingus])
     * Markable, one of the editors above allows us to convert to HTML.
 
-##### Optional exercise - HTML to Markdown
+##### Optional - HTML to Markdown
 It can be helpful to be able to convert from HTML to markdown. We may have existing work in HTML or want to use existing documents in HTML. If you have an existing HTML document you can try converting it to markdown. There is also an example HTML file in the github folder for this workshop you can use. 
 
 * [https://domchristie.github.io/to-markdown/](https://domchristie.github.io/to-markdown/)
 
-### Exercise 3 -  Markdown to PDF
+### Markdown to PDF
 We may originally write something in markdown which we later want to print. We can convert to PDF using an online converter. 
 
 * [http://www.markdowntopdf.com/](http://www.markdowntopdf.com/)
@@ -123,8 +129,13 @@ The output of these files are not always perfect but it gives a demonstration of
 
 ### Pandoc and LaTeX (final steps requires you to install software)
 
-Pandoc is a powerful 
-[http://pandoc.org/try/](http://pandoc.org/try/) Pandoc allows you to convert between a large number of different formats. We'll explore it a little more below. 
+Pandoc is a powerful piece of software that allows conversion between a large number of document types. It is particularly useful for converting Markdown to a range of other formats including; HTML, HTML5, PDF, Docx, EPUB but also many more specialist document types. It is a potentially very useful tool for a number of applications. 
+
+#### Trying Pandoc 
+
+Although it is not possible to use all of the features of pandoc without installing the software we can still try a number of features of pandoc without installing it. 
+
+* [http://pandoc.org/try/](http://pandoc.org/try/) Pandoc allows you to convert between a large number of different formats. We'll explore it a little more below. 
 
 
 Pandoc is a software 
