@@ -5,13 +5,16 @@ title: Markdown \#Citymash handout
 ## What this session will cover 
 * A discussion of some of the problems with proprietary file formats.
 * A look at some of the benefits of using plain text files alongside some of the limitations of text files. 
+* a chance to play around with markdown
+* a discussion of potential relevance to LIS?
 
 ## Problems with proprietary file formats
 
 * Proprietary file formats encode text in binary format. 
 * There are different ways of accessing propitiatory formats: 
-    - [A Wordstar emulator](https://goo.gl/Nuystv). 
-    - We can use OpenOffice or Libre Office to open most Doc and Docx files, but we cannot always [^1] use word to open OpenOffice (odt) files. 
+    - We can use emulators such as to access old file types [A Wordstar emulator](https://goo.gl/Nuystv). 
+    - We can use OpenOffice or Libre Office to open most Doc and Docx files, but we cannot always [^1] use word to open OpenOffice (odt) files.
+    - it may be possible to access corrupted files using specialist software but this is very time consuming. 
 
 ## Text files 
 
@@ -99,7 +102,7 @@ We don't need any special software to write in Markdown since it is a plain text
     * [Stackedit](https://stackedit.io/editor)
     * [Markable](http://markable.in/)
 
-3. Try writing some text using some common markdown syntax such as headings, lists, bold, italics etc. It might be helpful to try thinking about how you would structure different types of text i.e. a blog post, a web page or an academic piece of writing. 
+3. Try writing some text using some common markdown syntax such as headings, lists, bold, italics etc. It might be helpful to try thinking about how you would structure different types of text i.e. a blog post, a web page or an academic piece of writing. Some examples are included in the github repository for this lesson. 
 4. These online editors are useful for picking up markdown because they usually include a live preview of what you have written which is useful when you aren't yet familiar with the markdown syntax. 
 5. Once you have got something written in markdown we can try doing a number of things with it. 
 
@@ -148,6 +151,20 @@ To use pandoc we will have to:
 * have a plain text editor. For now notepad or text edit will be fine though you may want to try out some more advanced text editors in the future. 
 * if we want to produce PDFs we will also need to install LaTeX. There are a variety of different installations of LaTeX available and it is probably worth setting aside some more time to install this. 
 * have some citations in bib format. There are some included in the folder for this lesson that you can use. 
+
+### Other uses for Markdown
+
+There are other potential ways of using markdown:
+* we can use markdown as a first writing stage before converting to LaTeX to play around more closely with fancy typography
+* we can use markdown and Jekyll to build a blog. The site for this conference can be found here: https://github.com/citymash/citymash.github.io. It uses Markdown, Jekyll and Github pages, though you can find more handsome examples of jekyll and markdown in action. 
+    - a tutorial on using markdown and Jekyll can be found [here](https://github.com/barryclark/jekyll-now)
+    - the programming historian site gives an explanation of how they use Markdown and Jekyll to build their site. 
+* we can use markdown for making slides [http://remarkjs.com/#1](http://remarkjs.com/#1), [http://ogom.github.io/sublimetext-markdown-slideshow/](http://ogom.github.io/sublimetext-markdown-slideshow/)
+* You will probably find more examples of using Markdown online or you may know of some yourself. 
+
+## Discussion?
+
+We could potentially have a discussion about whether we think markdown is useful for librarians or not?
 
 ---
 [^1]: It is not always clear whether it is possible or not. It can depend on the version of the Word Processor being used at each end, the operating system and the type of files embedded in the document. 
